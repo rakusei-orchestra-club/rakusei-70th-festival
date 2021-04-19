@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+body{
+    background-color:#A2D7DD ;
+}
+.honbun{
+  color: #68be8d !important; 
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+.honbun-font-only{
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+.title-font{
+    font-family:'Train One', cursive;
+}
+.full{
+  width: 100vw;
+  height: 100vh;
+}
+/*PCの場合*/
+.pc	{ display:inline!important; }
+.mb	{ display:none!important; }
+@media screen and (max-width: 768px) {
+/*タブレット、スマホの場合*/
+.pc	{ display:none!important; }
+.mb { display:inline!important; }
+}
